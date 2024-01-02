@@ -1,11 +1,21 @@
 import { useState } from "react";
 
+import Headers from "../components/header";
+import About from "../components/about";
+import Sponsor from "../components/sponsor";
+import Galeri from "../components/galeri";
+import Berita from "../components/berita";
+import Footer from "../components/footer";
+
 function LandingPage() {
   return (
     <>
-      <div>
-        <h1>Hello brow !</h1>
-      </div>
+      <Headers />
+      <About />
+      <Sponsor />
+      <Galeri />
+      <Berita />
+      <Footer />
     </>
   );
 }

@@ -1,3 +1,435 @@
 * {
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif, "Montserrat";
+}
+
+.navbar-custom {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-btn {
+  border-radius: 6rem;
+  border: none;
+  background: var(
+    --primary-gradient,
+    linear-gradient(258deg, #59ffb9 0%, #326cff 100%)
+  );
+  color: #fff;
+  font-weight: 200;
+  font-weight: bold;
+}
+
+.navbar-custom .bg-menu {
+  color: #212427;
+  border-radius: 100px;
+  padding: 25px 35px;
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(25px);
+}
+.navbar-custom .navbar-nav {
+  gap: 2rem;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+  color: #212427;
+}
+
+.navbar-custom .navbar-nav .nav-link:hover {
+  color: #007bff;
+}
+
+.header-text {
+  padding-top: 18rem;
+}
+
+.img-banner {
+  width: 60%;
+}
+
+.btn-header {
+  padding: 2rem 3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-header .btn-banner {
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 10rem;
+  background: #ffc73c;
+  box-shadow: 0px 18px 40px 12px rgba(255, 211, 103, 0.35);
+}
+
+.section-body {
+  padding-top: 13rem;
+  align-items: center;
+  margin-left: 28rem;
+  margin-right: 28rem;
+}
+
+.section-maps {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: center;
+}
+
+.bg-section {
+  background: linear-gradient(237deg, #59ffb9 -30.09%, #326cff 71.21%);
+  text-align: center;
+}
+
+.section-img {
+  width: 32.375rem;
+  height: 24.25rem;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+.tag-section-maps {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Montserrat;
+  font-size: 4rem;
+  font-weight: bold;
+  font-style: italic;
+  line-height: normal;
+}
+
+.bg-section2 {
+  background: linear-gradient(237deg, #59ffb9 -30.09%, #326cff 71.21%);
+  padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+  align-items: center;
+}
+
+.fonts-1 {
+  color: #fff;
+  font-size: 1.6rem;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-style: italic;
+  font-weight: 900;
+}
+.fonts-2 {
+  color: #fff;
+  font-size: 1.7rem;
+  color: #fff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-style: italic;
+  font-weight: 900;
+}
+
+.section-event {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.banner-text1 {
+  color: #fff;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.section-konser {
+  gap: 1.5rem;
+}
+
+.btn-about {
+  padding: 2rem 3rem;
+}
+
+.btn-about .btn-about2 {
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 10rem;
+  background: #ffc73c;
+  box-shadow: 0px 18px 40px 12px rgba(255, 211, 103, 0.35);
+}
+
+.bg-sponsor {
+  background: linear-gradient(249deg, #59ffb9 -31.85%, #326cff 101.31%);
+  color: #fff;
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-top: 10rem;
+}
+
+.text-sponsor {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.galeri {
+  padding-top: 9rem;
+}
+
+.text-galeri {
+  text-align: center;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  padding-bottom: 2rem;
+}
+
+.mySwiper {
+  width: 100%;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* cartBerita */
+.card-artikel-size {
+  width: 23.5rem;
+  height: 23rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.img-artikel-size {
+  object-fit: cover;
+}
+
+.card-img-top {
+  border-radius: 12px;
+}
+
+.card-title-artikel {
+  color: #212427 !important;
+  font-family: Montserrat !important;
+  font-size: 16px !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  line-height: normal !important;
+}
+
+.card-text-artikel {
+  color: #6c6c6c !important;
+  font-family: Montserrat !important;
+  font-size: 12px !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  line-height: normal !important;
+}
+
+.card,
+.border-0 {
+  border: none !important;
+}
+
+.berita-section {
+  padding-top: 5rem;
+  width: 100%;
+  object-fit: cover;
+  height: 80rem;
+  position: relative;
+  background: url("../assets/img/berita-bg.jpg");
+  display: flex;
+}
+
+.berita-title {
+  color: #212427;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  margin-bottom: 3.3rem;
+}
+
+.navmenu-berita {
+  background: linear-gradient(249deg, #59ffb9 -31.85%, #326cff 101.31%);
+  padding: 0.625rem 1.25rem;
+  margin-bottom: 3.1rem;
+}
+
+.navmenu-berita a {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration: none;
+  margin-right: 0.5rem;
+}
+
+.berita-content {
+  width: 74rem;
+  height: 48rem;
+}
+
+.card-artikel-size:hover .img-artikel-size,
+.card-timestamp-size:hover .img-timestamp-size {
+  transform: scale(1.1);
+  cursor: pointer;
+
+  transition: transform 0.3s ease;
+}
+
+.card-artikel-size:hover .card-title-artikel,
+.card-timestamp-size:hover .card-title-timestamp {
+  color: #ff9a3c !important;
+  cursor: pointer;
+}
+
+.card-artikel-size,
+.card-timestamp-size {
+  overflow: hidden;
+}
+
+.card-timestamp-size {
+  width: 23.5rem;
+  height: 23rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.img-timestamp-size {
+  object-fit: cover;
+}
+
+.card-img-top {
+  border-radius: 12px;
+}
+
+.timestamp {
+  width: 4rem;
+  height: 1.5rem;
+  border-radius: 5px;
+  background: rgba(33, 36, 39, 0.5);
+  position: absolute;
+  right: 0;
+  margin-top: 0.5rem;
+  top: 0;
+  margin-right: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.timestamp h5 {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: center;
+  padding-top: 0.2rem;
+  margin-bottom: 0;
+}
+
+.card,
+.border-0 {
+  border: none !important;
+}
+
+.card-title-timestamp {
+  color: #212427 !important;
+  font-family: Montserrat !important;
+  font-size: 16px !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  line-height: normal !important;
+}
+
+.card-text-timestamp {
+  color: #6c6c6c !important;
+  font-family: Montserrat !important;
+  font-size: 12px !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  line-height: normal !important;
+}
+
+.btn-berita {
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 10rem;
+  background: #ffc73c;
+  box-shadow: 0px 18px 40px 12px rgba(255, 211, 103, 0.35);
+}
+
+.btn-berita-icon {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* footer */
+.footer-section {
+  width: 100%;
+  height: 23rem;
+  background: #28a997;
+}
+
+.logo-size {
+  width: 22rem;
+  height: 9.5rem;
+  margin-top: 1.8rem;
+  margin-left: 2.4rem;
+  font-variant: #fff;
+}
+
+#coloredLogo {
+  filter: brightness(0) invert(1);
+}
+
+.footer-container-text {
+  width: 81.25rem;
+  height: auto;
+  margin-top: 1.8rem;
+  gap: 6.25rem;
+}
+
+.footer-text p {
+  width: 63rem;
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 100 !important;
+  line-height: normal;
+}
+
+.footer-container-title {
+  height: 1rem;
+  width: auto;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.logo-style {
+  gap: 0.5rem;
+}
+
+.hr-style {
+  width: 81.25rem;
+  height: 0.1rem;
+  color: #fff;
+  margin-top: 1.8rem;
+  margin-bottom: 1.8rem;
+}
+
+.copyright {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 100% */
+  letter-spacing: 0.08px;
+  width: 81.25rem;
+  height: auto;
 }
