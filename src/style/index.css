@@ -235,7 +235,6 @@
   object-fit: cover;
   height: 80rem;
   position: relative;
-  background: url("../assets/img/berita-bg.jpg");
   display: flex;
 }
 
@@ -370,6 +369,11 @@
 }
 
 /* footer */
+
+.footer-pad{
+padding-top: 26rem
+}
+
 .footer-section {
   width: 100%;
   height: 23rem;

@@ -7,6 +7,7 @@ import berita3 from "../assets/img/thumbnail-artikel-3.png";
 import berita4 from "../assets/img/thumbnail-artikel-4.png";
 import berita5 from "../assets/img/thumbnail-artikel-5.png";
 import berita6 from "../assets/img/thumbnail-artikel-6.png";
+import BgBerita from "../assets/img/Berita-bg.jpg";
 
 const Berita = () => {
   const [selectedCategory, setSelectedCategory] = useState("artikel");
@@ -16,6 +17,11 @@ const Berita = () => {
   };
   return (
     <div className="berita-section">
+      <img
+        src={BgBerita}
+        alt=""
+        className="w-100 z-n1 position-absolute top-50 start-50 translate-middle"
+      />
       <div
         className={`berita-container mx-auto  ${selectedCategory}-container`}
       >
